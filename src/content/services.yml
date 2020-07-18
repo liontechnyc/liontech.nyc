@@ -1,0 +1,16 @@
+# Service Section Content
+
+- title: Design
+  description: Our process bridges human empathy with intelligent data to make your user experiences better.
+  image: service1.svg
+  route: /#services
+
+- title: Develop
+  description: Our web apps boast beauty and brains, with crafted design, cutting-edge code, exceptional usability, and conversion strategy built into each and every one.
+  image: service2.svg
+  route: /#services
+  
+- title: Strategize
+  description: We help businesses create strategic software solutions that drive revenue, reduce cost, and transform their businesses and market performance.
+  image: service3.svg
+  route: /#services

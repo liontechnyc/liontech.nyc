@@ -1,0 +1,9 @@
+
+- content:
+    header: Projects
+    description: Our agency balances brand ownership with collaboration by utilizing inbound marketing strategies alongisde our development lifecycle. 
+    items:
+      -   image: presentation-tacitoak.png
+          href: https://tacitoak.com/
+      -   image: presentation-versatiles.png
+          href: https://versatilesconstruction.com/

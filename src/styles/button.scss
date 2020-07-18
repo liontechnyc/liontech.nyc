@@ -1,0 +1,27 @@
+%btn {
+  display: flex;
+  background: ui-color($palette, 'brand');
+  border-radius: 30px;
+  color: #fff;
+  font-size: 14px;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+a.btn {
+  @extend %btn;
+}
+
+button.btn {
+  @extend %btn;
+
+  &:hover {
+    border: 2px solid ui-color($palette, 'interactive');
+    background-color: ui-color-lighter($palette, 'interactive');
+  }
+  &:focus {
+    background-color: ui-color-dark($palette, 'interactive');
+  }
+}

@@ -1,0 +1,11 @@
+@import 'palette.scss';
+
+$dark: #22181c;
+$light: #fffafa;
+$brand: #0b0d1b;
+$interactive: #29e7cd;
+$contrast: 10;
+
+$theme: $dark, $light, $brand, $interactive, $contrast;
+
+$palette: new-palette($theme...);

@@ -1,0 +1,16 @@
+@import '../styles/app';
+
+.policy {
+  &__container {
+    &--content {
+      margin: 0 3rem;
+      p {
+        font-size: medium;
+        line-height: 1.5rem;
+      }
+      ul > li {
+        line-height: 1.5rem;
+      }
+    }
+  }
+}
